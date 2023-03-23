@@ -9,7 +9,7 @@
   </head>
   <body>
     <main
-      class="w-5/6 my-10 mx-auto border-2 border-gray-100 bg-whit shadow-lg rounded"
+      class="w-5/6 my-10 mx-auto border-2 border-gray-100 bg-whit shadow-xl rounded"
     >
       <section>
         <!--프로필-->
@@ -105,8 +105,22 @@
               </div>
             </div>
             <div>
-              <h2 class="mt-10 font-bold text-2xl mb-2">기술</h2>
-              <p class="text-gray-600 mb-1 font-bold">
+              <h2 class="sr-only">기술</h2>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6 mt-10 mb-2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"
+                />
+              </svg>
+              <p class="mb-1 font-bold">
                 HTML5, CSS3, Tailwind CSS, JavaScript(ES6), React(V6),
                 TypeScript
               </p>
@@ -121,20 +135,20 @@
         <h2 class="sr-only">이력서</h2>
         <!--소개-->
         <div class="ml-20">
-          <h3 class="text-2xl font-bold">소개</h3>
+          <h3 class="text-2xl font-bold text-rose-600">소개</h3>
           <div class="ml-2 mt-5">
             <strong class="text-xl">
-              부족한 부분은 내 것으로 만들기 위해 파고드는 끈기와 실행력을
+              부족한 부분을 내 것으로 만들기 위해 파고드는 끈기와 실행력을
               가지고 있습니다.</strong
             >
             <p class="text-l text-gray-600">
-              - 이해도가 부족한 부분은 Vanila JS 타이머, React 쇼핑몰 토이
-              프로젝트, TypeScript 투두메이트 구현을 통해 학습했습니다.
+              - 학습이 더 필요한 부분은 Vanila JS 타이머, React 쇼핑몰 토이
+              프로젝트, TypeScript 투두메이트와 같이 구현을 해보면서 익혔습니다.
             </p>
             <p class="text-l text-gray-600">
-              - 팀 프로젝트 과정 동안 문제점을 고민하면서 팀원들과 공유하고
-              멘토님에게 피드백을 요청하였으며,<br />
-              게시글 작성시 미리보기와 이미지 업로드를 분리하는 코드로
+              - 팀 프로젝트 과정 동안 이미지 업로드 코드의 문제점을 고민하면서
+              팀원들과 공유하고 멘토님에게 피드백을 요청하였으며,<br />
+              이후 미리보기와 업로드를 분리해 기능별로 명확히 구분하여
               개선하였습니다.
             </p>
           </div>
@@ -143,8 +157,9 @@
               함께 성장하는 것의 가치와 에너지를 중요하게 생각합니다.</strong
             >
             <p class="text-l text-gray-600">
-              - 회고조 리더로서 매주 학습/감정 회고하는 시간을 마련하고 팀내
-              자바스크립트 스터디를 운영하여 '동료 칭찬상'을 수상하였습니다.
+              - 회고조 리더로서 매주 학습 내용 및 감정 회고하는 시간을 마련하고
+              팀내 자바스크립트 스터디를 운영하였으며, '동료 칭찬상'을
+              수상하였습니다.
             </p>
             <p class="text-l text-gray-600">
               - 비슷한 학습 어려움을 가지고 있는 동료가 있으면 토이 프로젝트 및
@@ -157,10 +172,10 @@
 
         <!--프로젝트-->
         <div class="mt-10 ml-20">
-          <h3 class="text-2xl font-bold">프로젝트</h3>
+          <h3 class="text-2xl font-bold text-rose-500">프로젝트</h3>
           <div class="flex flex-row">
             <div class="flex flex-col shrink-0 items-baseline w-1/6">
-              <p class="mt-5 text-xl inline-block">🥬 풍년 마켓</p>
+              <p class="mt-5 text-xl inline-block">풍년 마켓 🥬</p>
               <p class="text-s ml-2 text-gray-500 mt-2">(팀 프로젝트)</p>
               <a
                 href="https://github.com/One-Hundred-Trials/Good-Harvest-Market"
@@ -175,8 +190,8 @@
               <p class="text-s ml-2 text-gray-400 mt-2">2022.12-2023.01</p>
             </div>
             <p class="ml-5 mt-5 text-gray-600">
-              💡 직접 키운 농작물을 판매하고 이웃과 소통할 수 있는 SNS
-              마켓입니다. <br />
+              직접 키운 농작물을 판매하고 이웃과 소통할 수 있는 SNS 마켓입니다.
+              <br />
               - Git-flow 전략을 채택하여 업무 효율성 향상 <br />
               - ESlint & Prettier, 네이밍 및 커밋 컨벤션을 도입하여 팀워크 향상
               <br />
@@ -194,7 +209,7 @@
           </div>
           <div class="flex flex-row mt-2">
             <div class="flex flex-col shrink-0 items-baseline w-1/6">
-              <p class="mt-5 text-xl inline-block">🕹 나만의 자판기</p>
+              <p class="mt-5 text-xl inline-block">나만의 자판기 🕹</p>
               <p class="text-s ml-2 text-gray-500 mt-2">(개인 프로젝트)</p>
               <a
                 href="https://github.com/konveloper/Vending-machine"
@@ -206,7 +221,8 @@
               <p class="text-s ml-2 mt-2 text-gray-400">2022.12</p>
             </div>
             <p class="ml-5 mt-5 text-gray-600">
-              💡 Vanila JS로 구현한 음료 자판기입니다. <br />
+              금액을 넣고 원하는 음료를 뽑을 수 있는 Vanila JS 자판기입니다.
+              <br />
               - 웹접근성, SEO를 고려한 시맨틱한 마크업 → 수치로 보여주기 <br />-
               미디어 쿼리를 이용한 모바일 반응형 웹 구현
             </p>
@@ -214,7 +230,7 @@
         </div>
         <!--경험-->
         <div class="mt-10 ml-20">
-          <h3 class="text-2xl font-bold">경험</h3>
+          <h3 class="text-2xl font-bold text-rose-500">경험</h3>
           <div class="flex flex-row">
             <div class="flex flex-col shrink-0 items-baseline w-1/6">
               <p class="mt-5 text-xl inline-block">웹 접근성 책 공동 집필</p>
@@ -224,49 +240,49 @@
                 >🔗 다운로드 링크</a
               >
               <p class="text-s ml-2 text-gray-400 mt-2">2022.09-2022.11</p>
-              <img
+              <!-- <img
                 src="./src/img-book.jpg"
                 alt="웹 접근성 왭 표지"
                 class="mt-2 w-5/6"
-              />
+              /> -->
             </div>
             <p class="ml-5 mt-5 text-gray-600">
-              💡 여러 장애 환경에서 마주할 수 있는 실제 상황과 실무에서 쉽게
-              적용할 수 있는 예제를 담았습니다.
+              &lt;웹 접근성, 왭?&gt;
               <br />- 프론트엔드 신입 개발자를 위한 웹 접근성 책 집필에
               참여했습니다. <br />
-              - 전반적인 머리말, 웹 접근성의 이해, 닫는 말을 집필하였습니다.
-              <br />
-              - 책에 대한 내용 설명
+              - 여러 장애 환경에서 마주할 수 있는 실제 상황과 실무에서 쉽게
+              적용할 수 있는 예제를 담았습니다. <br />
+              - 머리말, 웹 접근성의 이해, 향후의 웹 접근성 챕터를 담당하여 웹
+              접근성의 필요성과 적용에 대해 이해하고 있습니다.
             </p>
           </div>
         </div>
 
         <!--이력-->
         <div class="mt-10 ml-20">
-          <h3 class="text-2xl font-bold">이력</h3>
+          <h3 class="text-2xl font-bold text-rose-500">이력</h3>
           <div class="flex flex-row w-2/3 mt-5">
             <p class="text-xl">영어 학원 강사</p>
-            <p class="ml-10 text-gray-400">2020.07-2022.07</p>
+            <p class="ml-5 text-gray-400">2020.07-2022.07</p>
           </div>
           <p class="ml-2 mt-2 text-gray-600">
-            - 맞춤형 커리큘럼에 따른 자기주도적 영어 학습 지도 <br />
-            - 운영 매뉴얼을 수립하여 원활한 학습 지도 지원<br />
-            - 학생마다 보완이 필요한 파악하여 writing, speaking 보충 수업을
-            운영, <br />
-            지도 학생들의 영어 백일장 대상 및 영어 말하기 대회 우수상 수상<br />
+            - 강사 운영 매뉴얼을 수립하여 원활한 학습 지도를 지원하였습니다.<br />
+            - 맞춤형 학습 지도로 학생별 보완 및 필요에 따라 writing, speaking
+            보충 수업을 운영하였으며, <br />
+            지도 학생들은 영어 백일장 대상 및 영어 말하기 대회 우수상을
+            수상하였습니다.<br />
           </p>
         </div>
         <!--교육-->
         <div class="mt-10 ml-20">
-          <h3 class="text-2xl font-bold">교육</h3>
+          <h3 class="text-2xl font-bold text-rose-500">교육</h3>
           <div class="flex flex-row w-2/3 mt-5">
             <p class="text-xl">멋쟁이사자처럼 프론트엔드 스쿨 3기 수료</p>
-            <p class="ml-10 text-gray-400">2022.08-2023.01</p>
+            <p class="ml-5 text-gray-400">2022.08-2023.01</p>
           </div>
           <div class="flex flex-row w-2/3 mt-2">
             <p class="text-xl">상명대학교 역사콘텐츠/문화콘텐츠 전공</p>
-            <p class="ml-10 text-gray-400">2013.03-2018.02</p>
+            <p class="ml-5 text-gray-400">2013.03-2018.02</p>
           </div>
         </div>
       </section>
